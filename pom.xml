@@ -40,8 +40,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
-					<source>C:\program files\Java\jdk1.8.0_73\bin\javac.exe</source>
-					<target>C:\program files\Java\jdk1.8.0_73\bin\javac.exe</target>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 
